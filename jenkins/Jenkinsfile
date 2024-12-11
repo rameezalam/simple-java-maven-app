@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Deliver') {
             steps {
-                sh './jenkins/scripts/lib/docker/volumes/jenkins_home/_data/.m2/repository/com/mycompany/app/my-app'
+                sh './lib/docker/volumes/jenkins_home/_data/.m2/repository/com/mycompany/app/my-app'
 '
             }
         }
